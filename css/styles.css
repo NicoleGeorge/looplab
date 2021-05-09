@@ -7,3 +7,24 @@ body {
   border-bottom: 3px solid #d69f86;
   opacity: 0.8;
 }
+
+#hero-section {
+  background: url(../img/2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  min-height: 700px;
+}
+
+#hero-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#hero-section .hero-inner {
+padding-top: 150px;
+}
