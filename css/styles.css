@@ -12,7 +12,8 @@ h4 {
   font-family: 'Krona One', sans-serif;
 }
 
-p {
+p,
+.text {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -40,6 +41,9 @@ p {
   font-weight: 400;
 }
 
+.bg-main {
+  background-color: #faf2e9;
+}
 #hero-section {
   background: url(../img/2.png);
   background-repeat: no-repeat;
@@ -68,7 +72,7 @@ p {
   border-radius: 20px;
 }
 
-#explore-head-section {
+.bg-brand {
   background: #d69f86;
   color: #333;
 }
@@ -76,7 +80,14 @@ p {
 #explore-section .fas,
 #share-section .fas {
   background: #b46532;
-  color: #fff;
+  color: #faf2e9;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+#create-section .fas {
+  background: #b46532;
+  color: #faf2e9;
   padding: 10px;
   border-radius: 8px;
 }
