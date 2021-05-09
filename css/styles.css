@@ -16,6 +16,18 @@ p {
   font-family: 'Montserrat', sans-serif;
 }
 
+.btn {
+  border-radius: 25px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #e6fa81;
+  border: none;
+  padding: 10px 50px;
+  color: #333;
+}
+
 .navbar-brand {
   font-family: 'Krona One', sans-serif;
 }
@@ -37,11 +49,11 @@ p {
 }
 
 #hero-section .dark-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
+  /* position: absolute; */
+  /* top: 0;
+  left: 0; */
   width: 100%;
-  min-height: 700px;
+  /* min-height: 700px; */
   background-color: rgba(0, 0, 0, 0.3);
 }
 
@@ -52,4 +64,19 @@ p {
 #hero-section .hero-card {
   background: #d69f86;
   color: #333;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+#explore-head-section {
+  background: #d69f86;
+  color: #333;
+}
+
+#explore-section .fas,
+#share-section .fas {
+  background: #b46532;
+  color: #fff;
+  padding: 10px;
+  border-radius: 8px;
 }
